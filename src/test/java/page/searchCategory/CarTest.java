@@ -1,4 +1,4 @@
-package page.shopCar;
+package page.searchCategory;
 
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -17,9 +17,10 @@ public class CarTest extends BaseTest {
         SearchGoogle.entryTheData(webDriver, "Falabella.co");
         SearchProduct.entryTheData(webDriver, productName);
         AddDetailCar.isVisibleProductSearch(webDriver);
-        SearchProduct.onClickProductPage(webDriver);
-        DetailProduct.onClickProduct(webDriver);
-        //AddDetailCar.onClickCarShop(webDriver);
+        DetailProduct.onClickProductPage(webDriver);
+        DetailProduct.onClickCarShop(webDriver);
+        //ShopCar.onClickQuantity(webDriver);
+        AddWarrantyProduct.onClickWarrantyProduct(webDriver);
 
 
     }

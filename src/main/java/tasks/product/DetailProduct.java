@@ -9,11 +9,6 @@ import ui.product.SearchProductUI;
 
 public class DetailProduct {
 
-    public static void clickAddToBagButton(WebDriver webDriver){
-        WaitUntilElement.isPresent(webDriver, DetailProductUI.btnAddBug);
-        Click.on(webDriver, DetailProductUI.btnAddBug);
-    }
-
     public static boolean isVisibleProductInformation(WebDriver webDriver){
         return IsDisplayed.element(webDriver, SearchProductUI.informationProduct);
     }
@@ -23,10 +18,14 @@ public class DetailProduct {
     }
 
     public static void onClickCarShop(WebDriver webDriver){
-        WaitUntilElement.isInVisibility(webDriver, DetailProductUI.btnAddBug);
+        WaitUntilElement.isPresent(webDriver, DetailProductUI.btnAddBug);
         Click.on(webDriver, DetailProductUI.btnAddBug);
     }
 
+    public static void onClickProductPage(WebDriver webDriver) {
+        WaitUntilElement.isInVisibility(webDriver,SearchProductUI.productSelect);
+        Click.onClickElement(webDriver, SearchProductUI.productSelect,0);
+    }
 
 
 }

@@ -1,4 +1,4 @@
-package page.FinalShop;
+package page.FinalTestShop;
 
 import base.BaseTest;
 import org.testng.Assert;
@@ -18,10 +18,10 @@ public class ShopTest extends BaseTest {
         //Search Page
         SearchGoogle.entryTheData(webDriver, "Falabella.co");
         SearchProduct.entryTheData(webDriver, productName);
-        //Validacion del listado de los productos
+        //Product
         AddDetailCar.isVisibleProductSearch(webDriver);
-        //SearchProduct.onClickProductPage(webDriver);
-        DetailProduct.onClickProduct(webDriver);
+        //DetailProduct.onClickProduct(webDriver);
+        DetailProduct.onClickProductPage(webDriver);
         DetailProduct.onClickCarShop(webDriver);
         AddProductQ.onClickQuantity(webDriver);
         AddWarrantyProduct.onClickWarrantyProduct(webDriver);

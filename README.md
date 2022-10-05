@@ -10,7 +10,7 @@ Se realizo la Automatizacion e implementacion: UnitTest/UI CON SELENIUM en la pa
 Integrante: [Janeth Hael Martinez Sarzuri](https://www.linkedin.com/in/janethmartinezs/)
 
 
-Docente Juan David Lopez Fuentes
+Docente: Juan David Lopez Fuentes
 
 
 
@@ -21,7 +21,7 @@ Docente Juan David Lopez Fuentes
 * TestNG framework
 * Selenium Web Driver
 * Log4j2
-* Extent Reports
+* Extent
 ```
 
 
