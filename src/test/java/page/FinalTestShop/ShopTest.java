@@ -20,8 +20,7 @@ public class ShopTest extends BaseTest {
         SearchProduct.entryTheData(webDriver, productName);
         //Product
         AddDetailCar.isVisibleProductSearch(webDriver);
-        //DetailProduct.onClickProduct(webDriver);
-        DetailProduct.onClickProductPage(webDriver);
+        DetailProduct.onClickProduct(webDriver);
         DetailProduct.onClickCarShop(webDriver);
         AddProductQ.onClickQuantity(webDriver);
         AddWarrantyProduct.onClickWarrantyProduct(webDriver);

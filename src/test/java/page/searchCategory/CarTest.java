@@ -17,9 +17,9 @@ public class CarTest extends BaseTest {
         SearchGoogle.entryTheData(webDriver, "Falabella.co");
         SearchProduct.entryTheData(webDriver, productName);
         AddDetailCar.isVisibleProductSearch(webDriver);
-        DetailProduct.onClickProductPage(webDriver);
+        DetailProduct.onClickProduct(webDriver);
         DetailProduct.onClickCarShop(webDriver);
-        //ShopCar.onClickQuantity(webDriver);
+        AddProductQ.onClickQuantity(webDriver);
         AddWarrantyProduct.onClickWarrantyProduct(webDriver);
 
 
